@@ -1,3 +1,28 @@
-*.keras
-*.h5
-*.pkl
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Model files (large)
+model/*.h5
+model/*.keras
+model/*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temp
+*.tmp
+*.log
